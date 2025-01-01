@@ -31,7 +31,7 @@ export const Sidebar = ({ className }: Props) => {
           <Loader className="h-5 w-5 animate-spin text-muted-foreground" />
         </ClerkLoading>
         <ClerkLoaded>
-          <UserButton afterSignOutUrl="/" />
+          <UserButton />
         </ClerkLoaded>
       </div>
     </div>
